@@ -47,14 +47,14 @@ export default function App({ Component, pageProps }) {
         <meta property="og:url" content="https://imersao-react-next-alura.joaofilhog3.vercel.app/" />
         <meta property="og:title" content="AluraQuiz - Flutter" />
         <meta property="og:description" content="Quiz desenvolvido durante a imersão React da Alura com o tema 'Flutter'" />
-        <meta property="og:image" content="https://ih1.redbubble.net/image.1057254628.1918/flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" />
+        <meta property="og:image" content="https://miro.medium.com/max/1838/1*PblQquEXxZ6U1BmBNlEprA.jpeg" />
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://imersao-react-next-alura.joaofilhog3.vercel.app/" />
         <meta property="twitter:title" content="AluraQuiz - Flutter" />
         <meta property="twitter:description" content="Quiz desenvolvido durante a imersão React da Alura com o tema 'Flutter'" />
-        <meta property="twitter:image" content="https://ih1.redbubble.net/image.1057254628.1918/flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" />
+        <meta property="twitter:image" content="https://miro.medium.com/max/1838/1*PblQquEXxZ6U1BmBNlEprA.jpeg" />
 
       </Head>
       <ThemeProvider theme={theme}>
