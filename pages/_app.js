@@ -37,6 +37,25 @@ export default function App({ Component, pageProps }) {
         <title>AluraQuiz - Flutter</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet" />
+
+        {/* Primary Meta Tags */}
+        <meta name="title" content="AluraQuiz - Flutter" />
+        <meta name="description" content="Quiz desenvolvido durante a imersão React da Alura com o tema 'Flutter'" />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://imersao-react-next-alura.joaofilhog3.vercel.app/" />
+        <meta property="og:title" content="AluraQuiz - Flutter" />
+        <meta property="og:description" content="Quiz desenvolvido durante a imersão React da Alura com o tema 'Flutter'" />
+        <meta property="og:image" content="./images/flutter.jpeg" />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://imersao-react-next-alura.joaofilhog3.vercel.app/" />
+        <meta property="twitter:title" content="AluraQuiz - Flutter" />
+        <meta property="twitter:description" content="Quiz desenvolvido durante a imersão React da Alura com o tema 'Flutter'" />
+        <meta property="twitter:image" content="./images/flutter.jpeg" />
+
       </Head>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
