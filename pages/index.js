@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { useRouter } from 'next/router';
 import db from '../db.json';
@@ -62,6 +62,6 @@ export default function Home() {
         <Footer />
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/JoaoFilhoG3" />
-    </QuizBackground >
+    </QuizBackground>
   );
 }
